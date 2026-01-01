@@ -8,7 +8,7 @@ public class Variables {
         int year = 2026;
         int quantity = 1;
 
-        double price = 19.99;
+        double price = 19999.99;
         double gpa = 8.03;
         double temperature = 20.5;
 
@@ -17,10 +17,31 @@ public class Variables {
         char currency = '$';
 
         boolean isStudent = true;
-        boolean forSale = false;
+        boolean forSale = true;
         boolean isOnline = true;
 
-        System.out.println(forSale);
+        String name = "Pravalika";
+        String food = "Biryani";
+        String email = "fake123@gmail.com";
+        String car = "Mercedes";
+        String color = "Green";
+
+
+        System.out.println("Hello "+name);
+        System.out.println("You are "+age+" years old.");
+        System.out.println("Your GPA is: "+gpa);
+        System.out.println("Your grade is: "+grade);
+        
+        System.out.println("Your choice is a "+color+" "+year+" "+car);
+
+        System.out.println("The price is: "+currency+price);
+
+        if(forSale){
+            System.out.println("There is a "+car+" for sale.");
+        }
+        else{
+            System.out.println("The "+car+" is not for sale.");
+        }
 
         
 
