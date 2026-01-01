@@ -43,6 +43,16 @@ public class Variables {
             System.out.println("The "+car+" is not for sale.");
         }
 
+        //HomeWork
+
+        String name1 = "Pravalika";
+        int gpa1 = 8;
+        double pi = 3.14159;
+        char gender = 'F';
+        boolean isAdmin = false;
+
+        System.out.println("Your name is "+name+ ". You're having a gpa of "+gpa1+". The value of pi is "+pi+". Your gender is "+gender+".");
+
         
 
     }
