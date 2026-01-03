@@ -53,6 +53,13 @@ public class Variables {
 
         System.out.println("Your name is "+name+ ". You're having a gpa of "+gpa1+". The value of pi is "+pi+". Your gender is "+gender+".");
 
+        if(isAdmin){
+            System.out.println("You have admin access.");
+        }
+        else{
+            System.out.println("You don't have admin access.");
+        }
+
         
 
     }
