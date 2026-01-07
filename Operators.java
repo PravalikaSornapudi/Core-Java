@@ -1,4 +1,4 @@
-public class ArithmeticOperators {
+public class Operators {
     public static void main(String[] args) {
         
         int x = 10;
@@ -12,5 +12,10 @@ public class ArithmeticOperators {
         z = x%y;
 
         System.out.println(z);
+
+        //Order [P-E-M-D-A-S]
+
+        double a = 3+4*(7-5)/2.0;
+        System.out.println(a); 
     }
 }
