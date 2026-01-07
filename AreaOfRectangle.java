@@ -15,5 +15,7 @@ public class AreaOfRectangle {
 
         area = width * height;
         System.out.println("The area is: "+area+" cm\u00B2");
+
+        scanner.close();
     }
 }
