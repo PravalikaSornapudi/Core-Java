@@ -20,5 +20,6 @@ public class ShoppingCart {
         total = price*quantity;
         
         System.out.println(total);
+        scanner.close();
     }
 }
